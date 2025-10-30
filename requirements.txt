@@ -3,5 +3,9 @@ netaddr
 lxml
 requests
 tqdm
-colorama
+colorama 
+beautifulsoup4
+rich
+
+
 
