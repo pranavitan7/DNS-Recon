@@ -3,7 +3,7 @@ import re
 from rich.console import Console
 from rich.table import Table
 from urllib.parse import urlparse
-
+ 
 console = Console()
 
 def banner():
