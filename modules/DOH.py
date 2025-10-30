@@ -8,7 +8,7 @@ from time import sleep
 init(autoreset=True)
 console = Console()
 
-# Google DoH API URL
+# Google DoH API URL 
 DOH_API = "https://dns.google/resolve"
 
 from colorama import Fore, Back, Style
