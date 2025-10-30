@@ -5,7 +5,7 @@ from rich.table import Table
 from colorama import Fore, init
 import re
 
-init(autoreset=True)
+init(autoreset=True) 
 console = Console()
 
 def banner():
