@@ -46,7 +46,8 @@ def main_menu():
         ("[3]", "📜 Domain Crawl Rules Lookup"),
         ("[4]", "🕷️ Domain Crawler"),
         ("[5]", "🔒 HSTS Check"),
-        ("[6]", "🌐 DOH (DNS over HTTPS)"),
+        ("[6]", "🌐 DOH (DNS over HTTPS)"), 
+        ("[7]", "🌐 SubDomain Enumeration"),
         ("[0]", "❌ Exit")
     ]
 
@@ -66,9 +67,11 @@ def main_menu():
         elif choice == "4":
             run_module("crawler.py")
         elif choice == "5":
-            run_module("HSTSCHECK.py")
+            run_module("hsts.py")
         elif choice == "6":
             run_module("DOH.py")
+             elif choice == "7":
+            run_module("subdomain.py")
         elif choice == "0":
             print("\n" + Fore.RED + "Exiting..." + Style.RESET_ALL)
             time.sleep(1)
