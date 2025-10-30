@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 from urllib.parse import urljoin, urlparse
 from queue import Queue
 import threading
-import os
+import os 
 import time
 from rich.console import Console
 from rich.progress import Progress, SpinnerColumn, TextColumn
