@@ -1,3 +1,19 @@
 DNS-Recon is a comprehensive, modular utility built in Python, specifically tailored for performing detailed DNS reconnaissance and enumerating DNS records for a given domain. This tool allows security researchers, penetration testers, and network administrators to gain deep insights into a domain's DNS configuration and infrastructure. Each module within the tool performs a specific task related to DNS inspection, ensuring clarity, maintainability, and focused functionality. 
 
-The first module, dnsrecord.py, acts as a fundamental DNS inspector. It retrieves the most common and essential DNS records for a given domain. This includes fetching A (IPv4 Address), AAAA (IPv6 Address), MX (Mail Exchanger), NS (Name Server), SOA (Start of Authority), and TXT (Text) records. This module provides the initial footprint of the domain's core services.
+```bash
+git clone https://github.com/pranavitan7/DNS-Recon.git
+```
+
+```bash
+cd dns
+```
+
+```bash
+pip install -r requirements.txt
+```
+
+```bash
+python main.py
+```
+
+
