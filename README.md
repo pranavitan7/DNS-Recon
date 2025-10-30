@@ -15,5 +15,5 @@ pip install -r requirements.txt
 ```bash
 python main.py
 ```
-
+<img width="690" height="813" alt="image" src="https://github.com/user-attachments/assets/6144723b-0e6b-4c6d-89ca-4a72dd7aaa6e" />
 
