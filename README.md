@@ -11,7 +11,7 @@ The crawler.py module is an advanced version of the basic crawl functionality, d
 The crawl.py module acts as a basic crawler that collects and lists URLs found on a given website. It systematically fetches HTML pages, extracts links, and maps the structure of the target site for reconnaissance purposes. This module helps identify publicly exposed directories, hidden endpoints, or linked assets that might be useful for further investigation. 
 
 The DOH.py module focuses on detecting and resolving DNS queries through DNS over HTTPS (DoH) endpoints. It allows users to perform secure DNS lookups via HTTPS requests instead of traditional UDP or TCP connections, ensuring privacy and integrity during DNS resolution.  
-
+ 
 The subdomain.py module focuses on discovering subdomains associated with a given domain through passive and pattern-based enumeration techniques. It analyzes DNS responses, validates domain structures using regular expressions, and filters out duplicates to provide accurate and well-organized results.
 
 
